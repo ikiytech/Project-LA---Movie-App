@@ -180,3 +180,13 @@ h2 {
   text-align: center;
   margin-bottom: 1rem;
 }
+
+.watermark {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.3); 
+  pointer-events: none; 
+  z-index: 1000; 
+}
